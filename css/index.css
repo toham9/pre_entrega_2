@@ -54,7 +54,7 @@ a {
     background: linear-gradient(to right,transparent,yellow 20%;royalblue 80%, transparent);
     border: none;
     position: relative;
-    width: 80%;
+    width: 100%;
     margin: 40px auto;
 }
 
