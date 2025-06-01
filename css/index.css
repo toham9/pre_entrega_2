@@ -10,6 +10,11 @@
     background-image: url("../media/img/deep_space.png")
 }
 
+a {
+    color:rgba(220, 183, 155, 1);
+    text-shadow: 1px 1px 0 black;
+}
+
 .logo-boton { 
         position: relative; 
         display: inline-block;
@@ -113,13 +118,17 @@
 .formulario {
     border: 2 px solid rgb(8, 37, 57);
     background-color:rgba(31, 47, 65, 0.5) ;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 2% ;
     font-family:'Cal Sans','Verdana','Tahoma','San-serif';
 }
 
+.ingrese_correo {
+    border-radius: 6px;
+}
+
 .boton {
-    border-radius: 10px;
+    border-radius: 5px;
     background-color:rgba(220, 183, 155, 0.7) ;
 
 }
@@ -131,20 +140,36 @@
 
 .textarea {
     color:black;
+    border-radius: 10px;
 }
-.footer {
+
+footer {
     background-color: black;
     color:white;
-    font-size:4vw;
+    font-size:3vw;
     font-family:'Cal Sans','Verdana','Tahoma','San-serif';
 }
 
-.iconos {
 
+.mail {
+    color:rgba(99, 70, 61, 1);
+    text-shadow: 1px 1px 0 black;
 }
 
 .footer-contenedor {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px; /* espacio en márgenens */
 }
+
+.iconos {
+ display: flex;
+ gap: 10px;
+}
+
+.iconos img {
+    width:24px;
+    height:24px;
+}
+
